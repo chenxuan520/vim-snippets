@@ -100,11 +100,11 @@ snippet datetime "YYYY-MM-DD hh:mm" w
 endsnippet
 
 snippet todo "TODO comment" bw
-`!p snip.rv=get_comment_format()[0]` TODO: `!v strftime('%d-%m-%y')` @`!v g:snips_author` ${2:message} `!p snip.rv=get_comment_format()[2]`
+`!p snip.rv=get_comment_format()[0]` TODO: `!v strftime('%y-%m-%d')` @`!v g:snips_author` ${2:message} `!p snip.rv=get_comment_format()[2]`
 endsnippet
 
 snippet note "NOTE comment" bw
-`!p snip.rv=get_comment_format()[0]` NOTE: `!v strftime('%d-%m-%y')` @`!v g:snips_author` ${2:message} `!p snip.rv=get_comment_format()[2]`
+`!p snip.rv=get_comment_format()[0]` NOTE: `!v strftime('%y-%m-%d')` @`!v g:snips_author` ${2:message} `!p snip.rv=get_comment_format()[2]`
 endsnippet
 
 ##########
