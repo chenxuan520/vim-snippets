@@ -70,10 +70,8 @@ snippet if "if condition"
 
 
 snippet ife "if else condition"
-	if $1 {
-		${2:${VISUAL}}
-	} else {
-		${0}
+	if err != nil {
+		${1:solution}
 	}
 
 snippet el "else"
